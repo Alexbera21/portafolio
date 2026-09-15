@@ -93,9 +93,9 @@
 <body class="font-sans antialiased bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300 selection:bg-accent selection:text-white">
 
 <nav id="nav" class="sticky top-0 z-50 border-b border-slate-200 dark:border-slate-800 bg-slate-50/90 dark:bg-slate-900/90 backdrop-blur-md transition-shadow duration-300">
-  <div class="max-w-[1180px] mx-auto px-5 h-[68px] flex items-center gap-7">
+  <div class="max-w-[1180px] mx-auto px-4 sm:px-5 h-[68px] flex items-center gap-2 sm:gap-7">
     <!-- EDITAR: tu marca. Puede ser tu nombre o el nombre de la empresa cuando la constituyas. -->
-    <a href="#top" class="font-display font-bold text-[17px] tracking-tight whitespace-nowrap">Alexander Beraun<span class="text-accent dark:text-accent-bright">.</span></a>
+    <a href="#top" class="font-display font-bold text-[15px] sm:text-[17px] tracking-tight whitespace-nowrap">Alexander Beraun<span class="text-accent dark:text-accent-bright">.</span></a>
     <div class="hidden md:flex items-center gap-6 ml-auto">
       <a href="#sobre-mi" data-en="About" class="nav-link relative pb-[3px] text-[14.5px] text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors whitespace-nowrap after:content-[''] after:absolute after:left-0 after:right-full after:bottom-0 after:h-0.5 after:bg-accent dark:after:bg-accent-bright after:transition-[right] after:duration-300 hover:after:right-0">Sobre mí</a>
       <a href="#servicios" data-en="Services" class="nav-link relative pb-[3px] text-[14.5px] text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors whitespace-nowrap after:content-[''] after:absolute after:left-0 after:right-full after:bottom-0 after:h-0.5 after:bg-accent dark:after:bg-accent-bright after:transition-[right] after:duration-300 hover:after:right-0">Servicios</a>
@@ -103,12 +103,12 @@
       <a href="#proceso" data-en="Process" class="nav-link relative pb-[3px] text-[14.5px] text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors whitespace-nowrap after:content-[''] after:absolute after:left-0 after:right-full after:bottom-0 after:h-0.5 after:bg-accent dark:after:bg-accent-bright after:transition-[right] after:duration-300 hover:after:right-0">Proceso</a>
       <a href="#stack" data-en="Stack" class="nav-link relative pb-[3px] text-[14.5px] text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors whitespace-nowrap after:content-[''] after:absolute after:left-0 after:right-full after:bottom-0 after:h-0.5 after:bg-accent dark:after:bg-accent-bright after:transition-[right] after:duration-300 hover:after:right-0">Stack</a>
     </div>
-    <div class="flex items-center gap-3 ml-auto md:ml-0">
-      <button class="w-[33px] h-[33px] inline-flex items-center justify-center rounded-lg border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" id="themeBtn" type="button" aria-label="Cambiar tema">
+    <div class="flex items-center gap-1.5 sm:gap-3 ml-auto md:ml-0">
+      <button class="w-[30px] h-[30px] sm:w-[33px] sm:h-[33px] inline-flex items-center justify-center rounded-lg border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" id="themeBtn" type="button" aria-label="Cambiar tema">
         <i class="ph-thin ph-moon text-base"></i>
       </button>
-      <button class="text-[13px] font-semibold tracking-wide px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" id="langBtn" type="button" aria-label="Cambiar idioma">EN</button>
-      <a href="#contacto" class="inline-flex items-center gap-2 whitespace-nowrap font-semibold text-sm rounded-lg px-4 py-2 text-white bg-gradient-to-br from-accent to-orange-400 dark:from-accent-bright dark:to-orange-300 shadow-lg shadow-accent/30 hover:brightness-105 hover:-translate-y-0.5 active:translate-y-px transition" data-en="Get in touch">Escríbeme</a>
+      <button class="text-[12px] sm:text-[13px] font-semibold tracking-wide px-2 sm:px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" id="langBtn" type="button" aria-label="Cambiar idioma">EN</button>
+      <a href="#contacto" class="inline-flex items-center gap-2 whitespace-nowrap font-semibold text-[13px] sm:text-sm rounded-lg px-3 sm:px-4 py-2 text-white bg-gradient-to-br from-accent to-orange-400 dark:from-accent-bright dark:to-orange-300 shadow-lg shadow-accent/30 hover:brightness-105 hover:-translate-y-0.5 active:translate-y-px transition" data-en="Get in touch">Escríbeme</a>
     </div>
   </div>
 </nav>
@@ -202,39 +202,25 @@
     </div>
 
     <div class="grid grid-cols-6 gap-4">
-      <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-4 rounded-2xl p-7 flex flex-col gap-3 text-white bg-gradient-to-br from-accent to-violet-600 dark:from-accent-bright dark:to-violet-400 hover:-translate-y-1.5 hover:shadow-xl transition-transform transition-shadow">
+      <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 rounded-2xl p-7 flex flex-col gap-3 text-white bg-gradient-to-br from-accent to-violet-600 dark:from-accent-bright dark:to-violet-400 hover:-translate-y-1.5 hover:shadow-xl transition-transform transition-shadow">
         <i class="ph-thin ph-identification-badge text-[28px]"></i>
         <h3 class="text-[1.12rem] font-semibold" data-en="Attendance and access control">Control de asistencia y accesos</h3>
         <p class="text-[14.5px] leading-relaxed opacity-90" data-en="QR credentials or facial recognition, depending on what your institution needs. Reports by grade, area or period, ready for the paperwork you already have to file.">
           Credenciales con QR o reconocimiento facial, según lo que necesite la institución. Reportes por grado, área o periodo, listos para la documentación que ya tienes que presentar.
         </p>
       </div>
-      <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-3 rounded-2xl p-7 flex flex-col gap-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 dark:hover:border-accent-bright/30 transition-transform transition-shadow">
+      <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-2 rounded-2xl p-7 flex flex-col gap-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 dark:hover:border-accent-bright/30 transition-transform transition-shadow">
         <i class="ph-thin ph-shopping-cart text-[28px] text-accent dark:text-accent-bright"></i>
         <h3 class="text-[1.12rem] font-semibold" data-en="Online stores">Tiendas en línea</h3>
         <p class="text-[14.5px] leading-relaxed text-slate-500 dark:text-slate-400" data-en="Catalogue, cart, payments and shipping, with product pages structured so Google actually shows them to the people searching.">
           Catálogo, carrito, pagos y envíos, con las fichas de producto estructuradas para que Google sí las muestre a quien está buscando.
         </p>
       </div>
-      <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-3 rounded-2xl p-7 flex flex-col gap-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 dark:hover:border-accent-bright/30 transition-transform transition-shadow">
-        <i class="ph-thin ph-plugs-connected text-[28px] text-accent dark:text-accent-bright"></i>
-        <h3 class="text-[1.12rem] font-semibold" data-en="Integrations">Integraciones</h3>
-        <p class="text-[14.5px] leading-relaxed text-slate-500 dark:text-slate-400" data-en="Electronic invoicing, payment gateways, WhatsApp notifications and connections between systems that were never meant to talk to each other.">
-          Facturación electrónica, pasarelas de pago, avisos por WhatsApp y conexiones entre sistemas que nunca fueron pensados para hablarse.
-        </p>
-      </div>
-      <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-4 rounded-2xl p-7 flex flex-col gap-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 dark:hover:border-accent-bright/30 transition-transform transition-shadow">
-        <i class="ph-thin ph-squares-four text-[28px] text-accent dark:text-accent-bright"></i>
-        <h3 class="text-[1.12rem] font-semibold" data-en="Management systems">Sistemas de gestión a medida</h3>
-        <p class="text-[14.5px] leading-relaxed text-slate-500 dark:text-slate-400" data-en="Inventory, bookings, dispatch or whatever your business still runs on notebooks and spreadsheets. Web based, works from any phone, nothing to install.">
-          Inventario, reservas, despachos o aquello que tu negocio todavía maneja en cuaderno y Excel. En la web, funciona desde cualquier celular, sin instalar nada.
-        </p>
-      </div>
       <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-2 rounded-2xl p-7 flex flex-col gap-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 dark:hover:border-accent-bright/30 transition-transform transition-shadow">
-        <i class="ph-thin ph-flow-arrow text-[28px] text-accent dark:text-accent-bright"></i>
-        <h3 class="text-[1.12rem] font-semibold" data-en="Automation with n8n">Automatización con n8n</h3>
-        <p class="text-[14.5px] leading-relaxed text-slate-500 dark:text-slate-400" data-en="Automatic workflows that connect your tools and save hours of manual work, without you having to build them yourself.">
-          Flujos automáticos que conectan tus herramientas y ahorran horas de trabajo manual, sin que tengas que armarlos tú mismo.
+        <i class="ph-thin ph-plugs-connected text-[28px] text-accent dark:text-accent-bright"></i>
+        <h3 class="text-[1.12rem] font-semibold" data-en="Integrations and automation">Integraciones y automatización</h3>
+        <p class="text-[14.5px] leading-relaxed text-slate-500 dark:text-slate-400" data-en="Electronic invoicing, payment gateways, WhatsApp notifications and automated n8n workflows that connect your tools and save hours of manual work.">
+          Facturación electrónica, pasarelas de pago, avisos por WhatsApp y flujos automáticos con n8n que conectan tus herramientas y ahorran horas de trabajo manual.
         </p>
       </div>
       <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-2 rounded-2xl p-7 flex flex-col gap-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 dark:hover:border-accent-bright/30 transition-transform transition-shadow">
@@ -242,13 +228,6 @@
         <h3 class="text-[1.12rem] font-semibold" data-en="IoT systems">Sistemas IoT</h3>
         <p class="text-[14.5px] leading-relaxed text-slate-500 dark:text-slate-400" data-en="Sensors and connected devices that send real-time data to a web panel, to monitor or automate a physical process.">
           Sensores y dispositivos conectados que envían datos en tiempo real a un panel web, para monitorear o automatizar un proceso físico.
-        </p>
-      </div>
-      <div class="reveal opacity-0 translate-y-3 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 col-span-6 lg:col-span-2 rounded-2xl p-7 flex flex-col gap-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 dark:hover:border-accent-bright/30 transition-transform transition-shadow">
-        <i class="ph-thin ph-megaphone text-[28px] text-accent dark:text-accent-bright"></i>
-        <h3 class="text-[1.12rem] font-semibold" data-en="Content and advertising with AI">Contenido y publicidad con IA</h3>
-        <p class="text-[14.5px] leading-relaxed text-slate-500 dark:text-slate-400" data-en="Campaigns, scripts and social content built with generative AI: from idea to publish-ready, faster.">
-          Campañas, guiones y piezas para redes hechas con IA generativa: de la idea al contenido listo para publicar, más rápido.
         </p>
       </div>
     </div>
