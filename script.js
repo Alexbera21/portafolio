@@ -12,10 +12,10 @@ document.getElementById('year').textContent = new Date().getFullYear();
   function apply(theme){
     if (theme === 'dark') {
       root.setAttribute('data-theme', 'dark');
-      icon.className = 'ph ph-sun';
+      icon.className = 'ph-thin ph-sun';
     } else {
       root.removeAttribute('data-theme');
-      icon.className = 'ph ph-moon';
+      icon.className = 'ph-thin ph-moon';
     }
   }
   apply(saved === 'dark' ? 'dark' : 'light');

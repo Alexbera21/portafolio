@@ -160,12 +160,8 @@ section{padding:76px 0}
 .tile-wide{grid-column:span 4}
 .tile-half{grid-column:span 3}
 .tile-third{grid-column:span 2}
-.tile-icon{
-  width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;
-  background:var(--accent-soft);margin-bottom:2px;
-}
-.tile i{font-size:24px;color:var(--accent)}
-.tile-accent .tile-icon{background:color-mix(in srgb, var(--accent-ink) 22%, transparent)}
+.tile-icon{display:flex;margin-bottom:4px}
+.tile i{font-size:28px;color:var(--accent);font-weight:300}
 .tile h3{font-size:1.12rem;font-weight:600}
 .tile p{font-size:14.5px;color:var(--muted);line-height:1.6}
 .tile-accent{
@@ -253,7 +249,7 @@ section{padding:76px 0}
 }
 .channel:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:var(--shadow)}
 .channel:active{transform:translateY(1px)}
-.channel i{font-size:20px;color:var(--accent-ink);flex-shrink:0;background:var(--accent);width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center}
+.channel i{font-size:26px;color:var(--accent);flex-shrink:0}
 .channel-txt{display:flex;flex-direction:column;line-height:1.35}
 .channel-txt span{font-size:12.5px;color:var(--muted)}
 .channel-txt b{font-weight:600;font-size:15px}
